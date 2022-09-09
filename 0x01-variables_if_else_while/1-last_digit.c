@@ -9,26 +9,21 @@
  *
  *Return: Always 0 (Success)
 */
+
 int main(void)
 {
-	int n;
-	int m;
+	int n, digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	 m = n % 10;
-	if(m>5)
-	{
-		printf("Last digit of %i is %i and is greater than 5\n" , n , m);
-	}
-	else if(m == 0)
-	{
-		printf("Last digit of %i is %i and is 0\n", n, m);
-	}
-	else if (m != 0 && m < 6)
-	{
-		printf("Last digit of %i is %i and is less than 6  and not 0\n", n , m);
-	}
+	digit = n % 10; /*get last digit*/
+
+	if (digit > 5)
+		printf("Last digit of %i is %i and is greater than 5\n", n, digit);
+	else if (digit == 0)
+		printf("Last digit of %i is %i and is 0\n", n, digit);
+	else if (digit < 6 && digit != 0)
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, digit);
 	return (0);
 }
