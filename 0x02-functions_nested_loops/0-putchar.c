@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int str[] = "_putchar";
+	char str[] = "_putchar";
 	int count, sz;
 
 	sz = 8;
