@@ -13,7 +13,7 @@ void print_alphabet(void)
 
 	for(n = 97; n<= 122 ; n++)
 	{
-		_putchar(i);
+		_putchar(n);
 	}
   	_putchar('\n');
 }	
