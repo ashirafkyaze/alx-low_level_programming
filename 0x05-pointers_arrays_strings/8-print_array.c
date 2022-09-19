@@ -1,11 +1,11 @@
 #include "main.h"
-
+#include <stdio.h>
 
 /**
  * print_array - Parameter that prints
  * n elements of an array.
  * @n: input integer.
- * @*a: array size.
+ * @a: array size.
  * Return: no return value.
  */
 
