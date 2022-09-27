@@ -7,7 +7,6 @@
  * @size:size of square
  * Return:nothing
  */
-
 void print_diagsums(int *a, int size)
 {
 	int i = 0;
@@ -28,7 +27,5 @@ void print_diagsums(int *a, int size)
 		sum2 = sum2 + value;
 		i = i + (size - 1);
 	}
-	printf("%d,%d\n", sum, sum2);
+	printf("%d, %d\n", sum, sum2);
 }
-
-
