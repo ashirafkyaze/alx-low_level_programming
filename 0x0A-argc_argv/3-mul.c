@@ -1,11 +1,14 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - program that multiplies two numbers.
- * @argc:argument count.
- * @argv:argument vector.
- * Return: no value.
+ *main - function to multiply two numbers
+ *
+ *@argc: argument counter
+ *@argv: arguments
+ *
+ * Return: (0)success exit
  */
 
 int main(int argc, char *argv[])
